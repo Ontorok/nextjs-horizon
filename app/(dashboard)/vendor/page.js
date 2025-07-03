@@ -16,8 +16,6 @@ export const metadata = {
 
 export default async function VendorPage() {
   const vendorsDependencies = await fetchVendors();
-  throw new Error("Error from VendorPage");
-
   return (
     <div>
       <div>Vendor page </div>

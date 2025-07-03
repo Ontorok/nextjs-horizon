@@ -26,10 +26,31 @@ export default function RootLayout({ children }) {
       >
         <nav className="py-4 border-b-orange-50 border-b">
           <ul className="flex gap-5 p-4">
-            <Link href={`/`}>Home</Link>
-            <Link href={`/dashboard`}>Dashboard</Link>
+            <li>
+              <Link href={`/`}>Home</Link>
+            </li>
+            <li>
+              <Link href={`/portal`}>Portal</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={`/employee`}>Employee</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={`/customer`}>Customer</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={`/vendor`}>Vendor</Link>
+            </li>
           </ul>
         </nav>
+
+        <nav>
+          <ul className="flex gap-5"></ul>
+        </nav>
+
         <div className="p-4">{children}</div>
       </body>
     </html>
