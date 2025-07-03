@@ -12,7 +12,7 @@ export default function DashboardLayout({ children }) {
         </ul>
       </nav>
       <div className="w-full h-48 bg-gray-500 flex justify-center items-center rounded-md mt-4">
-        <Suspense fallback={<div>Loading data</div>}>{children}</Suspense>
+        {children}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import Vendors from "@/components/Vendors";
 import React, { Suspense } from "react";
 
 const fetchVendors = async () => {
-  await new Promise((resolve) => {
+  await new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve();
     }, 3000);
@@ -16,10 +16,11 @@ export const metadata = {
 
 export default async function VendorPage() {
   const vendorsDependencies = await fetchVendors();
+  throw new Error("Error from VendorPage");
 
   return (
     <div>
-      <div>Vendor page</div>
+      <div>Vendor page </div>
       <div>{vendorsDependencies}</div>
       <Suspense fallback={<h1>Loading vendors....</h1>}>
         <Vendors />

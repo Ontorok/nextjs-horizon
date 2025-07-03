@@ -1,5 +1,6 @@
 import React from "react";
 
-export default function EmployeePage() {
+export default async function EmployeePage() {
+  throw new Error("errror from EmployeePage");
   return <div>EmployeePage</div>;
 }
