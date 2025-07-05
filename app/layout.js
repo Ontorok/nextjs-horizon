@@ -33,16 +33,16 @@ export default function RootLayout({ children }) {
               <Link href={`/portal`}>Portal</Link>
             </li>
             <li>
-              {" "}
               <Link href={`/employee`}>Employee</Link>
             </li>
             <li>
-              {" "}
               <Link href={`/customer`}>Customer</Link>
             </li>
             <li>
-              {" "}
               <Link href={`/vendor`}>Vendor</Link>
+            </li>
+            <li>
+              <Link href={`/blogs`}>Blogs</Link>
             </li>
           </ul>
         </nav>

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "The Ultimate Guide to Tailwind CSS v4",
+    "author": {
+      "name": "Sumit Saha",
+      "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+    },
+    "description": "<p>Tailwind CSS v4 is a game-changer for modern web development. It offers an enhanced utility-first approach with smarter tooling, better performance, and complete design freedom. Developers can now build elegant and responsive interfaces with less effort and cleaner code.</p><h2>What's New in Tailwind CSS v4</h2><ul><li>Faster builds with a revamped JIT engine</li><li>Extended support for dynamic theming</li><li>Built-in animation utilities</li><li>Advanced color management with CSS variables</li></ul><h3>Developer Experience Improvements</h3><p>The new release improves DX significantly with improved autocomplete, type safety in supported editors, and reduced configuration complexity. Tailwind now works seamlessly with frameworks like Next.js, Nuxt, and Laravel out of the box.</p><h3>Performance and Optimization</h3><p>Tailwind CSS v4 is leaner and faster. The purge system is smarter, reducing bundle sizes dramatically. It's ideal for scaling large design systems while maintaining blazing-fast performance across all environments.</p>",
+    "date": "May 1, 2025",
+    "category": "Web Development"
+  },
+  {
+    "id": 2,
+    "title": "The Ultimate Guide to the React Compiler",
+    "author": {
+      "name": "Sumit Saha",
+      "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+    },
+    "description": "<p>The React Compiler is a revolutionary optimization layer that analyzes and transforms your React code at build time. It unlocks automatic performance boosts by eliminating unnecessary re-renders—without changing how you write components.</p><h2>How the React Compiler Works</h2><ul><li>Analyzes component dependencies and reactivity</li><li>Automatically memoizes components when safe</li><li>Optimizes prop passing and re-render logic</li><li>Integrates tightly with React's existing runtime</li></ul><h3>Benefits for Developers</h3><p>With the compiler, developers get improved runtime performance without manual <code>useMemo</code> or <code>React.memo</code> boilerplate. It's designed to help you write idiomatic React code while getting the benefits of fine-grained reactivity for free.</p><h3>Looking Ahead</h3><p>Currently experimental, the React Compiler is part of the React team's vision for making performance the default. It will eventually integrate with frameworks like Next.js, providing seamless, compiler-level enhancements for real-world apps.</p>",
+    "date": "May 2, 2025",
+    "category": "Web Development"
+  }
+]
