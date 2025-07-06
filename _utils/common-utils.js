@@ -11,4 +11,7 @@ function slugify(str) {
   return result;
 }
 
-export { slugify };
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+export { slugify, sleep };
