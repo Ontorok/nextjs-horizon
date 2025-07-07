@@ -1,24 +1,112 @@
-[
-  {
-    "id": 1,
-    "title": "The Ultimate Guide to Tailwind CSS v4",
-    "author": {
-      "name": "Sumit Saha",
-      "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Ultimate Guide to Tailwind CSS v4",
+      "author": {
+        "name": "Sumit Saha",
+        "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+      },
+      "description": "<p>Tailwind CSS v4 is a game-changer for modern web development. It offers an enhanced utility-first approach with smarter tooling, better performance, and complete design freedom. Developers can now build elegant and responsive interfaces with less effort and cleaner code.</p><h2>What's New in Tailwind CSS v4</h2><ul><li>Faster builds with a revamped JIT engine</li><li>Extended support for dynamic theming</li><li>Built-in animation utilities</li><li>Advanced color management with CSS variables</li></ul><h3>Developer Experience Improvements</h3><p>The new release improves DX significantly with improved autocomplete, type safety in supported editors, and reduced configuration complexity. Tailwind now works seamlessly with frameworks like Next.js, Nuxt, and Laravel out of the box.</p><h3>Performance and Optimization</h3><p>Tailwind CSS v4 is leaner and faster. The purge system is smarter, reducing bundle sizes dramatically. It's ideal for scaling large design systems while maintaining blazing-fast performance across all environments.</p>",
+      "date": "May 1, 2025",
+      "category": "Web Development"
     },
-    "description": "<p>Tailwind CSS v4 is a game-changer for modern web development. It offers an enhanced utility-first approach with smarter tooling, better performance, and complete design freedom. Developers can now build elegant and responsive interfaces with less effort and cleaner code.</p><h2>What's New in Tailwind CSS v4</h2><ul><li>Faster builds with a revamped JIT engine</li><li>Extended support for dynamic theming</li><li>Built-in animation utilities</li><li>Advanced color management with CSS variables</li></ul><h3>Developer Experience Improvements</h3><p>The new release improves DX significantly with improved autocomplete, type safety in supported editors, and reduced configuration complexity. Tailwind now works seamlessly with frameworks like Next.js, Nuxt, and Laravel out of the box.</p><h3>Performance and Optimization</h3><p>Tailwind CSS v4 is leaner and faster. The purge system is smarter, reducing bundle sizes dramatically. It's ideal for scaling large design systems while maintaining blazing-fast performance across all environments.</p>",
-    "date": "May 1, 2025",
-    "category": "Web Development"
-  },
-  {
-    "id": 2,
-    "title": "The Ultimate Guide to the React Compiler",
-    "author": {
-      "name": "Nasir Ahmed",
-      "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+    {
+      "id": 2,
+      "title": "The Ultimate Guide to the React Compiler",
+      "author": {
+        "name": "Nasir Ahmed",
+        "avatar": "https://learnwithsumit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.de111715.jpg&w=828&q=75"
+      },
+      "description": "<p>The React Compiler is a revolutionary optimization layer that analyzes and transforms your React code at build time. It unlocks automatic performance boosts by eliminating unnecessary re-renders—without changing how you write components.</p><h2>How the React Compiler Works</h2><ul><li>Analyzes component dependencies and reactivity</li><li>Automatically memoizes components when safe</li><li>Optimizes prop passing and re-render logic</li><li>Integrates tightly with React's existing runtime</li></ul><h3>Benefits for Developers</h3><p>With the compiler, developers get improved runtime performance without manual <code>useMemo</code> or <code>React.memo</code> boilerplate. It's designed to help you write idiomatic React code while getting the benefits of fine-grained reactivity for free.</p><h3>Looking Ahead</h3><p>Currently experimental, the React Compiler is part of the React team's vision for making performance the default. It will eventually integrate with frameworks like Next.js, providing seamless, compiler-level enhancements for real-world apps.</p>",
+      "date": "May 2, 2025",
+      "category": "Web Development"
+    }
+  ],
+  "comments:": [
+    {
+      "postId": 1,
+      "id": 1,
+      "name": "id labore ex et quam laborum",
+      "email": "Eliseo@gardner.biz",
+      "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
     },
-    "description": "<p>The React Compiler is a revolutionary optimization layer that analyzes and transforms your React code at build time. It unlocks automatic performance boosts by eliminating unnecessary re-renders—without changing how you write components.</p><h2>How the React Compiler Works</h2><ul><li>Analyzes component dependencies and reactivity</li><li>Automatically memoizes components when safe</li><li>Optimizes prop passing and re-render logic</li><li>Integrates tightly with React's existing runtime</li></ul><h3>Benefits for Developers</h3><p>With the compiler, developers get improved runtime performance without manual <code>useMemo</code> or <code>React.memo</code> boilerplate. It's designed to help you write idiomatic React code while getting the benefits of fine-grained reactivity for free.</p><h3>Looking Ahead</h3><p>Currently experimental, the React Compiler is part of the React team's vision for making performance the default. It will eventually integrate with frameworks like Next.js, providing seamless, compiler-level enhancements for real-world apps.</p>",
-    "date": "May 2, 2025",
-    "category": "Web Development"
-  }
-]
+    {
+      "postId": 1,
+      "id": 2,
+      "name": "quo vero reiciendis velit similique earum",
+      "email": "Jayne_Kuhic@sydney.com",
+      "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+      "postId": 1,
+      "id": 3,
+      "name": "odio adipisci rerum aut animi",
+      "email": "Nikita@garfield.biz",
+      "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    },
+    {
+      "postId": 1,
+      "id": 4,
+      "name": "alias odio sit",
+      "email": "Lew@alysha.tv",
+      "body": "non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    },
+    {
+      "postId": 1,
+      "id": 5,
+      "name": "vero eaque aliquid doloribus et culpa",
+      "email": "Hayden@althea.biz",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+    },
+    {
+      "postId": 2,
+      "id": 6,
+      "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+      "email": "Presley.Mueller@myrl.com",
+      "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+    },
+    {
+      "postId": 2,
+      "id": 7,
+      "name": "repellat consequatur praesentium vel minus molestias voluptatum",
+      "email": "Dallas@ole.me",
+      "body": "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor"
+    },
+    {
+      "postId": 2,
+      "id": 8,
+      "name": "et omnis dolorem",
+      "email": "Mallory_Kunze@marie.org",
+      "body": "ut voluptatem corrupti velit\nad voluptatem maiores\net nisi velit vero accusamus maiores\nvoluptates quia aliquid ullam eaque"
+    },
+    {
+      "postId": 2,
+      "id": 9,
+      "name": "provident id voluptas",
+      "email": "Meghan_Littel@rene.us",
+      "body": "sapiente assumenda molestiae atque\nadipisci laborum distinctio aperiam et ab ut omnis\net occaecati aspernatur odit sit rem expedita\nquas enim ipsam minus"
+    },
+    {
+      "postId": 2,
+      "id": 10,
+      "name": "eaque et deleniti atque tenetur ut quo ut",
+      "email": "Carmen_Keeling@caroline.name",
+      "body": "voluptate iusto quis nobis reprehenderit ipsum amet nulla\nquia quas dolores velit et non\naut quia necessitatibus\nnostrum quaerat nulla et accusamus nisi facilis"
+    },
+    {
+      "postId": 3,
+      "id": 11,
+      "name": "fugit labore quia mollitia quas deserunt nostrum sunt",
+      "email": "Veronica_Goodwin@timmothy.net",
+      "body": "ut dolorum nostrum id quia aut est\nfuga est inventore vel eligendi explicabo quis consectetur\naut occaecati repellat id natus quo est\nut blanditiis quia ut vel ut maiores ea"
+    },
+    {
+      "postId": 3,
+      "id": 12,
+      "name": "modi ut eos dolores illum nam dolor",
+      "email": "Oswald.Vandervort@leanne.org",
+      "body": "expedita maiores dignissimos facilis\nipsum est rem est fugit velit sequi\neum odio dolores dolor totam\noccaecati ratione eius rem velit"
+    }
+  ]
+}

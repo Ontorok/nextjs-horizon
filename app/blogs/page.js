@@ -6,7 +6,7 @@ import { slugify } from "@/_utils/common-utils";
 export default function BlogsPage() {
   return (
     <div>
-      {data.map((blog) => {
+      {data.blogs.map((blog) => {
         const authorName = slugify(blog.author.name);
         return (
           <div key={blog.id}>
