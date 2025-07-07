@@ -47,6 +47,9 @@ export default function RootLayout({ children }) {
             <li>
               <Link href={`/parallel`}>Parallel</Link>
             </li>
+            <li>
+              <Link href={`/gallery`}>Gallery</Link>
+            </li>
           </ul>
         </nav>
 
